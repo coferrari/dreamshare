@@ -1,0 +1,59 @@
+.welcome {
+    height: 60vh;
+}
+
+.dreamshare {
+    @include montserrat($white, 22px);
+    text-transform: uppercase;
+    padding-top: 60px
+}
+
+.titledream {
+    @include montserrat($white, 36px);
+    text-transform: uppercase;
+    max-width: 500px;
+    text-align: center;
+}
+
+.titlecnt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    @include roboto($white, 24px, 24.5px);
+    padding: 0px 20px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .welcome {
+        height: 60vh;
+    }
+    .titledream {
+        @include montserrat($white, 52px);
+        padding-top: 200px;
+    }
+    .dreamshare {
+        padding-top: 0px
+    }
+    
+}
+
+@media only screen and (min-width: 1024px) {
+    .welcome {
+        height: 70vh;
+    }
+    .titledream {
+        @include montserrat($white, 52px);
+        padding-top: 50px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .welcome {
+        height: 90vh;
+    }
+}

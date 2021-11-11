@@ -1,0 +1,12 @@
+@mixin montserrat($color, $fontSize) {
+    font-family: 'Montserrat', sans-serif;
+    color: $color;
+    font-size: $fontSize;
+}
+
+@mixin roboto($color, $fontsize, $lineHeight) {
+    font-family: 'Roboto', sans-serif;
+    color: $color;
+    font-size: $fontsize;
+    line-height: $lineHeight;
+}

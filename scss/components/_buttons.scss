@@ -1,0 +1,62 @@
+.contLogs {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.btns {
+    background-color: transparent;
+    border: none;
+    border-style: hidden;
+    @include roboto($white, 12px, 24.5px);
+    width: 75px;
+}
+
+.signup {
+    border-radius: 20px;
+    border: 2px solid $white;
+}
+
+.bigredbnt {
+    background-color: $lightred;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    width: 320px;
+    @include montserrat($white, 16px);
+    font-weight: 700;
+}
+
+.outlineredbnt {
+    background-color: $white;
+    border: none;
+    padding: 10px;
+    border: 2px solid $lightred;
+    border-radius: 25px;
+    width: 270px;
+    @include montserrat($lightred, 16px);
+    font-weight: 700;
+}
+
+.btnstep {
+    background-color: $lightred;
+    border: none;
+    padding: 10px 0px;
+    border-radius: 25px;
+    width: 100px;
+    @include montserrat($white, 14px);
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+@media only screen and (min-width: 768px) {
+    .contLogs {
+        padding-top: 40px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+}

@@ -1,0 +1,39 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitle {
+    @include montserrat($darkergrey, 24px);
+    max-width: 300px;
+    padding: 10px;
+    text-align: center;
+}
+
+.inputcnt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.textactivity {
+    @include roboto($brownishgrey, 18px, 14px);
+    margin: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .section {
+        padding: 40px 0px
+    }
+    .subtitle {
+        max-width: 700px;
+    }
+    .inputcnt {
+        flex-direction: row;
+    }
+}

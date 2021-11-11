@@ -1,0 +1,12 @@
+.input {
+    width: 300px;
+    height: 15px;
+    padding: 10px;
+    border: 1px solid $brownishgrey;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+::placeholder {
+    @include roboto($brownishgrey, 14px, 1)
+}
