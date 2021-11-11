@@ -1,5 +1,7 @@
 # Dreamshare 
 
+![Screen Shot 2021-11-10 at 22 13 05](https://user-images.githubusercontent.com/80214717/141219181-b99b3761-0fd7-4a57-9dfc-d981319b1118.png)
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
